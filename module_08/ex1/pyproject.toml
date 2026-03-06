@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "loading programs"
+version = "1.1.1"
+package - mode = false
+authors = ["mbidlal"]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pandas = ">=2.1.0"
+requests = ">=2.31.0"
+matplotlib = ">=3.7.2"
+
+[build - system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build - backend = "poetry.core.masonry.api"
