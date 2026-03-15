@@ -18,7 +18,6 @@ def spell_transformer(spells: list[str]) -> list[str]:
 
 def mage_stats(mages: list[dict]) -> dict:
     values_power = list(map((lambda m: m['power']), mages))
-    print(values_power)
     static = {
         'max_power': max(values_power),
         'min_power': min(values_power),
